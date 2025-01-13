@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/bs/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+    <title>Taskmaster - Signup</title>
+</head>
+
+<body>
+
+    <div class="row container-fluid">
+        <div
+            class="col-xl-6 col-md-12 col-sm-12 bg-light d-flex flex-column align-items-center justify-content-center svg-part">
+            <img src="./assets/images/ac9f38db-53ae-4085-a2db-4e73a14929e2.png" alt="" width="700">
+        </div>
+        <div class="col-xl-6 col-md-12 col-sm-12 ">
+            <div class="addUser">
+                <h3>SIGNUP</h3>
+                <div class="line-container container">
+                    <span class="line"></span>
+                    <img src="./assets/images/favico.png" alt="Icon" width="40" class="center-icon">
+                    <span class="line"></span>
+                </div>
+
+                <div id="alertPlaceholder" class="my-3"></div>
+
+                <form id="signupForm" class="addUserForm">
+                    <div class="inputGroup">
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" id="name" name="name" required class="form-control" placeholder="Your Name"
+                            autoComplete="off">
+                        <label htmlFor="email">Email:</label>
+                        <input type="email" id="email" name="email" required class="form-control"
+                            placeholder="Your Email" autoComplete="off">
+                        <label htmlFor="Password">Password:</label>
+                        <input type="password" id="password" name="password" required class="form-control"
+                            autoComplete="off" placeholder="Enter Password">
+                        <label htmlFor="confirmPassword">Confirm Password:</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required class="form-control"
+                            placeholder="Confirm your password">
+                        <label htmlFor="Password">Role:</label>
+                        <input type="text" id="role" name="role" required class="form-control" placeholder="Your Role"
+                            autoComplete="off">
+                        <label htmlFor="Password">Title:</label>
+                        <input type="text" id="title" name="title" required class="form-control"
+                            placeholder="Your Title" autoComplete="off">
+                        <label htmlFor="admin" class="d-flex align-items-center gap-2">
+                            <!-- checked -->
+                            <input type="checkbox" id="admin" class="form-check-input" />
+                            Admin
+                        </label>
+
+                        <button type="submit" class="btn btn-lg text-light mt-4 fw-bold">
+                            Sign Up
+                        </button>
+                    </div>
+                </form>
+                <div class="login">
+                    <p>Already have an Account?
+                        <a href="./login.html" type="submit" class="text-dark">Login</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/bs/bootstrap.bundle.js"></script>
+    <script src="./assets/js/signup.js"></script>
+</body>
+
+</html>

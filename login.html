@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/bs/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>Taskmaster - Login</title>
+</head>
+
+<body>
+
+    <div class="row container-fluid">
+        <div
+            class="col-xl-6 col-md-12 col-sm-12 bg-light d-flex flex-column align-items-center justify-content-center svg-part">
+            <img src="./assets/images/ac9f38db-53ae-4085-a2db-4e73a14929e2.png" alt="" width="700">
+        </div>
+        <div class="col-xl-6 col-md-12 col-sm-12 addUserBody">
+
+            <div class="addUser">
+                <h3>LOGIN</h3>
+
+                <div class="line-container container">
+                    <span class="line"></span>
+                    <img src="./assets/images/favico.png" alt="Icon" width="40" class="center-icon">
+                    <span class="line"></span>
+                </div>
+
+                <div id="alertPlaceholder" class="my-2"></div>
+
+
+                <form id="loginForm" class="addUserForm">
+                    <div class="inputGroup">
+
+
+                        <label htmlFor="email">Email:</label>
+                        <input type="email" id="email" name="email" required class="form-control"
+                            placeholder="Your email" autoComplete="off">
+                        <label htmlFor="Password">Password:</label>
+                        <input type="password" id="password" name="password" required class="form-control"
+                            autoComplete="off" placeholder="Enter Password">
+
+                        <button type="submit" class="btn btn-lg text-light mt-4 fw-bold">
+                            Login
+                        </button>
+                    </div>
+                </form>
+                <div class="login">
+                    <p>Don't have an Account?
+                        <a href="https://taskmaster-capstone.netlify.app/signup" type="submit"
+                            class="text-dark">Signup</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/bs/bootstrap.bundle.js"></script>
+    <script src="./assets/js/login.js"></script>
+</body>
+
+</html>
